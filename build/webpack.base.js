@@ -4,7 +4,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const ESLintWebpackPlugin = require('eslint-webpack-plugin');
 const isDev = process.env.NODE_ENV === 'development'; // 是否是开发模式
-console.log('固定路径' + __dirname);
 module.exports = {
     entry: path.join(__dirname, '../src/index.tsx'), // 入口文件
     output: {
